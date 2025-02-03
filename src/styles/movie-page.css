@@ -1,0 +1,61 @@
+
+/* movie page container styling */
+.movie-page-container {
+    margin: 120px 0px 0px;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.home-button {
+    margin: 0px 0px 10px;
+}
+
+/* movie info styling */
+.movie-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px 0px 50px;
+    padding: 20px 75px;
+
+    background-color: black;
+
+    border-radius: 10px;
+}
+
+
+.moive-posters-container {
+    display: flex;
+}
+
+.movie-poster, .movie-backdrop {
+    height: 260px;
+    margin: 0px 20px;
+}
+
+.text-info {
+    background-image: linear-gradient(#3FFF00, #002200);
+    color: #1A2421;
+
+    padding: 0px 25px;
+    margin: 20px 0px 0px;
+
+    border-radius: 10px;
+}
+
+.text-info > h3 {
+    text-decoration: underline;
+}
+
+.movie-description {
+    width: 900px;
+
+    color: white;
+}

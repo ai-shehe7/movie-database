@@ -1,0 +1,110 @@
+main {
+    margin: 120px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* movie card styling */
+.movie-card-container {
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #003500;
+    border-radius: 10px;
+
+    width: 140px;
+
+    transition: opacity .15s;
+    cursor: pointer;
+}
+
+.movie-card-container:hover {
+    opacity: .7;
+}
+
+.poster {
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 10px;
+
+    box-shadow: 1px 1px #000000;
+} 
+
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title, .year-released {
+    margin: 0px;
+}
+
+.title {
+    font-size: 10px;
+}
+
+.link {
+    padding: 0px;
+    text-decoration: none;
+    color: #39FF14;
+}
+
+
+/* movie list stlying */
+.movie-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 15px;
+
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
+
+    background-color: #001f00;
+    border-radius: 10px;
+}
+
+/* genre container styling */
+.genre-container {
+    background-image: linear-gradient( to bottom right, #000000 75%, #30F010);
+    padding: 0px 20px 10px;
+    margin: 50px 0px;
+    border-radius: 10px;
+}
+
+.genre-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+
+    padding: 5px 10px;
+    
+    font-size: large;
+    font-family: 'Space Mono';
+
+    color: #00ee00;
+    background-color: #001f00;
+
+    cursor: pointer;
+
+    transition: background-color .45s, color .45s; 
+}
+
+.button:hover {
+    background-color: #00ee00;
+    color: #001f00;   
+}

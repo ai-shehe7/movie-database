@@ -15,16 +15,6 @@ export default function MainContent() {
     const movieListTypes = [ "trending", "popular", "top_rated", "upcoming", "now_playing"];
 
     useEffect(() => {
-        /*
-        const options = {
-            method: 'GET',
-            headers: {
-                accept: 'application/json',
-                Authorization: `Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNmM3MmQxZWEyODA3OTY4YzIwMjBjNTIwZWJlZWVhNCIsIm5iZiI6MTczNjA0NzExNC42MjMwMDAxLCJzdWIiOiI2Nzc5ZmEwYTRiZjBmMGUzYjQ3NDhjOWMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.as_8BZPlk-XQ9lS1jkOjO3m6ACujg-jwqzVXxDfp0VM`
-            }
-        };
-        */
-
 
         for (let i = 0; i < movieListTypes.length; i++) {
             let url = "";

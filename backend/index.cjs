@@ -21,7 +21,7 @@ const app = express();
 // routes
 app.use(cors());
 
-app.use("/api" ,require("./backend/movieRoutes.cjs"));
+app.use("/api" ,require("./movieRoutes.cjs"));
 
 
 

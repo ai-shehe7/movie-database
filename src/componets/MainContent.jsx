@@ -28,9 +28,10 @@ export default function MainContent() {
             fetch(url)
                 .then(res => {
                     console.log(res.ok)
-                    return res.json()
+                    return res.json();
                 })
                 .then(data => setMovieData(prevData => {
+                    console.log(data)
                     console.log(data.results)
                     prevData[movieListTypes[i]] = data.results
                     console.log("movies")

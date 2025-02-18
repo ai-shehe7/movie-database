@@ -1,5 +1,5 @@
 
-const apiToken = require("../index.cjs");
+const apiToken = require("./index.cjs");
 
 
 const express = require("express");
@@ -8,7 +8,6 @@ const needle = require("needle");
 const url = require("url");
 
 
-// console.log(apiToken);
 
 router.get("/", async (req, res) => {
     const options = {
@@ -42,14 +41,10 @@ router.get("/", async (req, res) => {
 
     try {
 
-        const params = new URLSearchParams({
-
-        });
-
-
         const apiRes = await needle("get", url, options);
-
+        console.log(url);
         const data = apiRes.body;
+        console.log(data);
         // console.log("movie-data");
         // console.log(data);
 

@@ -42,9 +42,9 @@ router.get("/", async (req, res) => {
     try {
 
         const apiRes = await needle("get", url, options);
-        console.log(url);
+        // console.log(url);
         const data = apiRes.body;
-        console.log(data);
+        // console.log(data);
         // console.log("movie-data");
         // console.log(data);
 

@@ -19,6 +19,7 @@ const app = express();
 
 
 // routes
+app.use(express.static(path.join(__dirname, 'dist')));
 app.use(cors());
 
 app.use("/api" ,require("./movieRoutes.cjs"));

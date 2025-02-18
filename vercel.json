@@ -1,8 +1,4 @@
 {
     "version": 2,
-    "builds": [{
-        "src": "./index.cjs",
-        "use": "@vercel/node"
-    }],
-    "routes": [{"src": "/(.*)", "dest": "/index.cjs"}]   
+    "rewrites": [{ "source": "/(.*)", "destination": "/api" }] 
 }

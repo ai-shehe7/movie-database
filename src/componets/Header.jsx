@@ -2,8 +2,8 @@
 import { Link } from "react-router-dom";
 
 // images
-import film from "../../film.png";
-import popcorn from "../../popcorn.png";
+import film from "../assets/film.png";
+import popcorn from "../assets/popcorn.png";
 
 export default function Header() {
     return (
